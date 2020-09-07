@@ -367,6 +367,7 @@
         </e>
         <e p="Script" t="Include">
           <e p="LaunchManager.cs" t="Include" />
+          <e p="PixelGunGameManager.cs" t="Include" />
           <e p="PlayerNameInputManager.cs" t="Include" />
         </e>
       </e>

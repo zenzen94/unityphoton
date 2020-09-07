@@ -71,6 +71,7 @@
      <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
      <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
      <Compile Include="Assets\Script\LaunchManager.cs" />
+     <Compile Include="Assets\Script\PixelGunGameManager.cs" />
      <Compile Include="Assets\Script\PlayerNameInputManager.cs" />
      <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
      <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />
