@@ -44,8 +44,7 @@ namespace Script
         public void JoinRandomRoom()
         {
             Debug.Log("랜덤 방에 입장합니다.");
-            var temp = PhotonNetwork.JoinRandomRoom();
-            Debug.Log($"성공여부 {temp}");
+            PhotonNetwork.JoinRandomRoom();
         }
 
         #endregion
@@ -104,10 +103,9 @@ namespace Script
 
         public override void OnJoinedRoom()
         {
+            Debug.Log("방입장 OnJoinedRoom 런치매니저");
             Debug.Log(PhotonNetwork.NickName + " 이름으로 " + PhotonNetwork.CurrentRoom.Name + " 방에 입장했습니다.");
             PhotonNetwork.LoadLevel("GameScene");
-            
-            
         }
 
         public override void OnPlayerEnteredRoom(Player newPlayer)
